@@ -22,7 +22,7 @@
 
 alberta,97,51,0	script	Fabian	84,{
 	mes "[Fabian]";
-	mes "Man... When you travel all around the world, you'll hear of some crazy things.";
+	mes "Cara... When you travel all around the world, you'll hear of some crazy things.";
 	next;
 	mes "[Fabian]";
 	mes "Once, I heard that there are Cards which contain the power of monsters. If someone happens to get their hands on a card, they'll be able to use that monster's power.";
