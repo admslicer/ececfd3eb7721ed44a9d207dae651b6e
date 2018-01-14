@@ -31,7 +31,7 @@ alberta,97,51,0	script	Fabian	84,{
 	mes "I'm guessing it's some sort of fad or scam, where they make you collect all the cards or whatever. I mean, how can a card really hold the power of a monster?!";
 	next;
 	mes "[Fabian]";
-	mes "Seriously...";
+	mes "Sério...";
 	close;
 }
 
