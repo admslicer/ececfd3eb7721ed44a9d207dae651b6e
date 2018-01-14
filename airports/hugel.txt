@@ -29,7 +29,7 @@ OnTouch:
 			warp "airplane",244,58;
 			end;
 		}
-		mes "I am sorry, but you do not have enough money.";
+		mes "Me desculpe, mas você não tem Zeny suficiente.";
 		mes "Please remember, you are required to pay 1,200 zeny to use the service.";
 		close;
 	}
