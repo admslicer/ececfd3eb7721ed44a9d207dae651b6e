@@ -14,7 +14,7 @@
 
 -	script	::Airship_Staff_izlude	-1,{
 	mes "[Airship Staff]";
-	mes "Welcome! Would you like";
+	mes "Bem vindo! Would you like";
 	mes "to board the Airship that";
 	mes "departs on the flight wich stops";
 	mes "in Juno and Rachel?";
