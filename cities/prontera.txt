@@ -27,7 +27,7 @@
 //============================================================
 prontera,160,330,0	script	Guard#pront::prtguard	105,{
 	mes "[Prontera Guard]";
-	mes "Bem vindo a Prontera.";
+	mes "Bem vindo a Prontera!";
 	close;
 }
 prontera,223,99,1	duplicate(prtguard)	Guard#2pront	105
