@@ -13,21 +13,21 @@
 //============================================================ 
 
 -	script	::Airship_Staff_izlude	-1,{
-	mes "[Airship Staff]";
-	mes "Bem vindo! Would you like";
-	mes "to board the Airship that";
-	mes "departs on the flight wich stops";
-	mes "in Juno and Rachel?";
+	mes "[Funcionário do Dirigível]";
+	mes "Bem vindo! Gostaria";
+	mes "de embarcar no dirigível";
+	mes "que faz paradas";
+	mes "em Juno e Rachel?";
 	next;
-	if (select("Board the Airship to Juno/Rachel.:Cancel.") == 1) {
-		mes "[Airship Staff]";
-		mes "The boarding fee is";
-		mes "1,200 zeny. However, this";
-		mes "charged is waived if you use";
-		mes "a Free Ticket for Airship. Now,";
-		mes "would you still like to board?";
+	if (select("Embarque no dirigível para Juno/Rachel.:Cancela.") == 1) {
+		mes "[Funcionário do Dirigível]";
+		mes "A taxa de embarque é";
+		mes "1,200 zeny. No entanto, isso";
+		mes "esta cobrança é dispensada se você usar";
+		mes "um Ticket Gratuito para Dirigível. Agora,";
+		mes "Você ainda gostaria de embarcar?";
 		next;
-		if (select("Yes:No") == 1) {
+		if (select("Sim:Não") == 1) {
 			if (countitem(7311) > 0) {
 				delitem 7311,1; //Free_Flying_Ship_Ticket
 				warp "airplane_01",244,58;
@@ -38,16 +38,16 @@
 				warp "airplane_01",244,58;
 				end;
 			}
-			mes "[Airship Staff]";
-			mes "I'm sorry, but you don't";
-			mes "have 1,200 zeny to pay";
-			mes "for the boarding fee.";
+			mes "[Funcionário do Dirigível]";
+			mes "Me desculpe, mas você não";
+			mes "tem 1,200 zeny para pagar";
+			mes "a taxa de embarque.";
 			close;
 		}
 	}
-	mes "[Airship Staff]";
-	mes "Thank you and";
-	mes "please come again.";
-	mes "Have a good day~";
+	mes "[Funcionário do Dirigível]";
+	mes "Obrigado e";
+	mes "por favor, venha novamente.";
+	mes "Tenha um bom dia~";
 	close;
 }

@@ -15,8 +15,8 @@
 hugel,178,142,0	script	toairplane#hugel	45,1,1,{
 	end;
 OnTouch:
-	mes "To use the airship, you are required to pay 1,200 zeny or a Free Airship Ticket.";
-	mes "Would you like to use the service?";
+	mes "Para usar o dirigível, você precisa pagar 1.200 zeny ou um Bilhete de Dirigível Gratuito.";
+	mes "Você gostaria de usar o serviço?";
 	next;
 	if (select("Sim:Não") == 1) {
 		if (countitem(7311) > 0) {
@@ -30,9 +30,9 @@ OnTouch:
 			end;
 		}
 		mes "Me desculpe, mas você não tem Zeny suficiente.";
-		mes "Please remember, you are required to pay 1,200 zeny to use the service.";
+		mes "Lembre-se, você precisa pagar 1.200 zeny para usar o serviço.";
 		close;
 	}
-	mes "Thank you, please come again.";
+	mes "Obrigado, por favor, venha novamente.";
 	close;
 }
